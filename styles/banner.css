@@ -3,7 +3,6 @@
     color: var(--cor-do-cabecalho);
     text-align: center;
     padding: 2.5em 2em;
-    width: 100%;
 }
 
 .banner__titulo {
@@ -33,6 +32,6 @@
     text-align: center;
     background: url(../assets/Pesquisa.svg);
     background-repeat: no-repeat;
-    background-position: 4em;
+    background-position: 1.7em;
     padding-left: 3em;
 }

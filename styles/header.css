@@ -4,13 +4,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em 2em 1em 2em;
-    width: 100%;
     position: relative;
 }
 
 .cabecalho__menu-hamburguer  {
     width: 2.5rem;
     height: 2.5rem;
+    padding-left: 1em;
     background-image: url(../assets/Menu.svg);
     display: inline-block;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 
 .container.menu {
-    gap: 1.5em;
+    gap: 1em;
 }
 
 .lista-menu {

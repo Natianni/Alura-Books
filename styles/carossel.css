@@ -1,4 +1,4 @@
-.carossel__titulo {
+.carrossel__titulo {
     background-color: var(--cor-do-cabecalho);
     color: var(--laranja);
     text-transform: uppercase;
@@ -7,3 +7,19 @@
     padding: 1em 0 0.5em 0;
     text-align: center;
 }
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-page {
+    position: initial;
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.swiper-button-p, 
+.swiper-button-n{
+    display: none;
+}
+

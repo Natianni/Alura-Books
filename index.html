@@ -49,12 +49,47 @@
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
         </section>
-        <section class="carossel">
-            <h2 class="carossel__titulo">últimos lançamentos</h2>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">últimos lançamentos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/assets/books/Javascript.png" alt="livro sobre javascript da Alurabooks"></div>
+                <div class="swiper-slide"><img src="/assets/books/Gestão2.png" alt="livro sobre gestão numero 2 da AluraBooks"></div>
+                <div class="swiper-slide"><img src="/assets/books/Nodejs.png" alt="livro sobre node java script da alura books"></div>
+                <div class="swiper-slide"><img src="/assets/books/ReactNative.png" alt="livro da alura books sobre react ReactNative"></div>
+                <div class="swiper-slide"><img src="/assets/books/Construct2.png" alt="livro da alura books sobre contruct numero 2"></div>
+                ...
+                </div>
+                
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-p"></div>
+                <div class="swiper-button-n"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
         </section>
     </main>
     
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 10,
+        slidesPerView: 3,
+        loop: true,
+                pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+     });
+    </script>
 </body>
 </html>
