@@ -54,24 +54,48 @@
             <!-- Slider main container -->
             <div class="swiper">
                 <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="swiper-pag"></div>
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
+                
                 <div class="swiper-slide"><img src="/assets/books/Javascript.png" alt="livro sobre javascript da Alurabooks"></div>
                 <div class="swiper-slide"><img src="/assets/books/Gestão2.png" alt="livro sobre gestão numero 2 da AluraBooks"></div>
                 <div class="swiper-slide"><img src="/assets/books/Nodejs.png" alt="livro sobre node java script da alura books"></div>
                 <div class="swiper-slide"><img src="/assets/books/ReactNative.png" alt="livro da alura books sobre react ReactNative"></div>
                 <div class="swiper-slide"><img src="/assets/books/Construct2.png" alt="livro da alura books sobre contruct numero 2"></div>
-                ...
+                
                 </div>
                 
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-p"></div>
                 <div class="swiper-button-n"></div>
             
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1 linha -->
+                <div class="card__descricao">
+                    <!-- 1 coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!-- 2 coluna-->
+                    <img src="/assets/Perfil-escritora 2.png" alt="perfil da Perfil-escritora 2" class="descricao__imagem">
+                </div>
+                
+                <!-- 2 linha -->
+                <div class="card__botoes">
+                    <!-- 1 coluna -->
+                    <ul class="botoes">
+                        <il class="botoes__item"><img src="/assets/Favoritos.svg" alt="botao dos favoritos"></il>
+                        <il class="botoes__item"><img src="/assets/Compras.svg" alt="botao do carrinho de compras"></il>
+                    </ul>
+                    <!-- 2 coluna -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
             </div>
         </section>
     </main>
@@ -85,7 +109,7 @@
         slidesPerView: 3,
         loop: true,
                 pagination: {
-            el: '.swiper-pagination',
+            el: '.swiper-pag',
             clickable: true,
         },
 
