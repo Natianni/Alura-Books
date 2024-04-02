@@ -62,6 +62,7 @@
 
 .lista-menu {
     color: var(--laranja);
+    z-index: 10;
 }
 
 .lista-menu__titulo {
